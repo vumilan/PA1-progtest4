@@ -155,7 +155,7 @@ Nespravny vstup.
    Dotazy:
    list 3
     ```
-jsou přípustné odpovědi:
+    jsou přípustné odpovědi:
     ```
    Max. rozloha: 2 (x 38)
    3: 2 x 1 @ (0,0)
@@ -197,7 +197,7 @@ jsou přípustné odpovědi:
    3: 2 x 1 @ (3,3)
    3: 2 x 1 @ (4,3)
     ```
-nebo:
+    nebo:
     ```
    Max. rozloha: 2 (x 38)
    3: 1 x 2 @ (0,0)
@@ -239,7 +239,7 @@ nebo:
    3: 2 x 1 @ (3,3)
    3: 2 x 1 @ (4,3)
     ```
-nebo libovolná další ze zbývajících 523022617466601111760007224100074291199999998 permutací.
+    nebo libovolná další ze zbývajících 523022617466601111760007224100074291199999998 permutací.
 * Slovní popis struktury platných vstupních dat není zcela exaktní. Proto připojujeme i formální popis vstupního jazyka v EBNF:
 ```
     input      ::= { whiteSpace } gridSize { whiteSpace } priceMap { whiteSpace } queryList
